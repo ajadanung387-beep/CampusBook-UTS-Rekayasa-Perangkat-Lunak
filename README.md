@@ -1,6 +1,12 @@
 # CampusBook
 
-CampusBook adalah implementasi awal untuk reservasi ruang dan peralatan kampus.
+Proyek tugas Rekayasa Perangkat Lunak: rancangan dan implementasi awal sistem
+reservasi ruang serta peralatan kampus.
+
+## Dokumen tugas
+- [Jawaban lengkap (PDF)](docs/Jawaban_UTS_CampusBook.pdf)
+- [Versi DOCX](docs/Jawaban_UTS_CampusBook.docx)
+- [SRS mini](docs/SRS-mini.md)
 
 ## Struktur
 - `src/controllers` — lapisan penerima permintaan HTTP
@@ -12,7 +18,10 @@ CampusBook adalah implementasi awal untuk reservasi ruang dan peralatan kampus.
 ## Setup
 1. Buat database MySQL.
 2. Jalankan `database/schema.sql`.
-3. Konfigurasi environment untuk koneksi database dan layanan email.
+3. Konfigurasikan koneksi database dan layanan email.
+
+Catatan: repository ini berisi rancangan dan kerangka implementasi awal; antarmuka
+web belum dibangun.
 
 ## Alur reservasi
 Peminjam mengirim reservasi, `ReservationService` memvalidasi dan mengecek bentrok,
